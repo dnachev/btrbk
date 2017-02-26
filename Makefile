@@ -1,8 +1,8 @@
 PN         = btrbk
 
 PREFIX    ?= /usr
-CONFDIR    = /etc
-CRONDIR    = /etc/cron.daily
+CONFDIR    = $(PREFIX)/etc
+CRONDIR    = $(PREFIX)/etc/cron.daily
 BINDIR     = $(PREFIX)/sbin
 DOCDIR     = $(PREFIX)/share/doc/$(PN)
 SCRIPTDIR  = $(PREFIX)/share/$(PN)/scripts
